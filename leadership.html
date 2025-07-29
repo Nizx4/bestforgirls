@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Leadership resources for girls: confidence, changemaker profiles, and your voice.">
+  <title>Leadership | BestForGirls.com</title>
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png">
+  <script defer src="scripts/leadership.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">BestForGirls<span class="dot">.com</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lifestyle.html">Lifestyle</a></li>
+        <li><a href="learning.html">Learning</a></li>
+        <li><a href="leadership.html" class="active">Leadership</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger-menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-hero leadership">
+      <h1>Leadership <span>🌟</span></h1>
+      <p class="tagline">Confidence, stories, and tools for future leaders.</p>
+    </section>
+    <section class="leadership-sections">
+      <div class="leadership-block" id="confidence-corner">
+        <h2>Confidence Corner</h2>
+        <div class="affirmation-block"><!-- JS injects daily affirmation --></div>
+      </div>
+      <div class="leadership-block" id="girls-who-lead">
+        <h2>Girls Who Lead</h2>
+        <div class="changemaker-cards"><!-- JS injects bios --></div>
+      </div>
+      <div class="leadership-block" id="your-voice">
+        <h2>Your Voice</h2>
+        <form class="voice-form" autocomplete="off">
+          <label for="story">Submit a story or quote:</label>
+          <textarea id="story" name="story" rows="4" maxlength="400" placeholder="Your story or favorite quote..."></textarea>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <div class="form-message" id="form-message"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-social">
+      <a href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+      <a href="#"><img src="assets/pinterest.svg" alt="Pinterest"></a>
+      <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+    </div>
+    <div class="footer-copy">&copy; 2025 BestForGirls.com &mdash; Made with <span class="heart">💖</span> by BestForGirls.com</div>
+  </footer>
+</body>
+</html>
